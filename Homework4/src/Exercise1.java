@@ -53,7 +53,7 @@ public class Exercise1{
 	//This method is to deposit money into balance
 	public static double depositCash(double deposit, double balance) {
 		if (deposit >= 0) {
-			return balance=deposit;
+			return balance+=deposit;
 
 		} else{
 			System.out.println("Invalid depost!");
